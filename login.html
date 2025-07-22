@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7EStudy</title>
+    <link rel="stylesheet" href="style7.css">
+</head>
+<script>
+    if (localStorage.getItem("loggedIn") === "true") {
+      window.location.href = "index.html"; // already logged in? go to homepage
+    }
+    </script>
+
+<body>
+   <header>
+    <div class="container">
+    <h1>7EStudy</h1>
+    <nav>
+      <a href="index3.html">Home</a>
+      <a href="mcq-quiz.html">MCQs</a>
+      <a href="youtube.html">Videos</a>
+      <a href="notes.html">Notes</a>
+      <a href="contact.html">Contact us</a>
+    </nav>
+  </div>
+</header>
+ 
+<main class="login-container">
+  <div class="animated-messages">
+    <span id="animated-text"></span>
+  </div>
+
+  <div class="login-box">
+    <h2>Login to continue</h2>
+    <form id="loginForm">
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter your password" minlength="6" required />
+
+      <button type="submit">Login</button>
+      <p id="error-msg"></p>
+    </form>
+  </div>
+</main>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const phrases = [
+      "Let's learn and grow",
+      "Maths, Chemistry, Physics, Biology",
+      "CBSE and School Exam Prep 🏆",
+      "Unlock your potential"
+    ];
+
+    const textEl = document.getElementById("animated-text");
+    let phraseIndex = 0;
+    let letterIndex = 0;
+    let isDeleting = false;
+
+    function typeEffect() {
+      const currentPhrase = phrases[phraseIndex];
+      const fullLength = currentPhrase.length;
+
+      if (!isDeleting) {
+        textEl.textContent = currentPhrase.substring(0, letterIndex + 1);
+        letterIndex++;
+
+        if (letterIndex === fullLength) {
+          // Hold full text for 2s before deleting
+          setTimeout(() => {
+            isDeleting = true;
+            typeEffect();
+          }, 2000);
+          return;
+        }
+      } else {
+        textEl.textContent = currentPhrase.substring(0, letterIndex - 1);
+        letterIndex--;
+
+        if (letterIndex === 0) {
+          isDeleting = false;
+          phraseIndex = (phraseIndex + 1) % phrases.length;
+        }
+      }
+
+      setTimeout(typeEffect, isDeleting ? 50 : 90);
+    }
+
+    typeEffect();
+  });
+</script>
+
+
+  
+<script src="js/login.js"></script>
+
+</body>
+
+
+     <footer>
+        <p>&copy;2025 7EStudy. All rights reserved.</p>
+     </footer>
+    
+</body>
+</html>

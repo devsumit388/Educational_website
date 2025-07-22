@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MCQ Test - EduQuest</title>
+  <link rel="stylesheet" href="style7.css" />
+</head>
+  <script src="js/auth.js"></script>  <!-- ✅ protect page -->
+  
+ <script>
+  if (localStorage.getItem("loggedIn") !== "true") {
+    window.location.href = "login.html";
+  }
+</script>
+
+
+<body>
+  <header>
+  <div class="container">
+    <h1>7EStudy</h1>
+    <nav>
+      <a href="index3.html">Home</a>
+      <a href="mcq-quiz.html">MCQs</a>
+      <a href="youtube.html">Videos</a>
+      <a href="notes.html">Notes</a>
+      
+      <a href="contact.html">Contact us</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="quiz-container">
+  <h2>MCQ Test</h2>
+
+  <!-- Step-by-step dropdown filters -->
+  <div id="filters">
+<select id="class-select">
+  <option value="">Select Class</option>
+  <option value="9">Class 9</option>
+  <option value="10">Class 10</option>
+</select>
+
+<select id="subject-select" disabled>
+  <option value="">Select Subject</option>
+</select>
+
+<select id="chapter-select" disabled>
+  <option value="">Select Chapter</option>
+</select>
+
+<select id="difficulty-select" disabled>
+  <option value="">Select Difficulty</option>
+</select>
+
+
+    <button id="load-quiz-btn" disabled>Start Quiz</button>
+  </div>
+
+  <!-- Timer -->
+  <div id="timer" style="display: none;">Time: 00:00</div>
+
+
+  <!-- Question container -->
+  <div id="question-container"></div>
+
+  <!-- Submit button -->
+  <button id="submit-btn" style="display:none;">Submit Test</button>
+
+  <!-- Score output -->
+  <div id="score-output"></div>
+
+  <!-- Leaderboard -->
+  <div id="leaderboard-section" style="display: none;">
+    <h3>Leaderboard</h3>
+    <ul id="leaderboard"></ul>
+  </div>
+</main>
+
+  <footer>
+    <p>&copy; 2025 EduQuest. All rights reserved.</p>
+  </footer>
+  <script src="js/quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "class9": {
+    "maths": {
+      "ch2": {
+        "medium": [
+          {
+            "question": "What is 2 + 2?",
+            "options": ["3", "4", "5", "6"],
+            "answer": "4"
+          },
+          {
+            "question": "What is the square root of 16?",
+            "options": ["2", "3", "4", "5"],
+            "answer": "4"
+          }
+        ]
+      }
+    }
+  }
+}
+

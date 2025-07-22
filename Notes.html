@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7ESTUDY</title>
+    <link rel="stylesheet" href="style7.css"> 
+</head>
+<script src="js/auth.js"></script>  <!-- ✅ protect page -->
+ <script>
+  // ❗ Checks if you're logged in
+  if (localStorage.getItem("loggedIn") !== "true") {
+    window.location.href = "login.html";
+  }
+</script>
+
+
+<body>
+    <header>
+  <div class="container">
+    <h1>7EStudy</h1>
+    <nav>
+      <a href="index3.html">Home</a>
+      <a href="mcq-quiz.html">MCQs</a>
+      <a href="youtube.html">Videos</a>
+      <a href="notes.html">Notes</a>
+      <a href="contact.html">Contact us</a>
+    </nav>
+  </div>
+</header>
+
+
+    <main class="notes-container">
+        <h2>study notes and downloads</h2>
+        <div class="notes-card">
+            <h3>class 10th maths</h3>
+            <p>best notes for mathematics</p>
+            <a href="pdfs/class10th-math.pdf" download class="download-btn">Download PDF</a>
+        </div>
+
+        <div class="notes-card">
+            <h3>class 9th maths</h3>
+            <p>best notes for mathematics</p>
+            <a href="pdfs/class9th-math.pdf"
+            download class="download-btn">Download PDF</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 7ESTUDY.All rights reserved.</p>
+    </footer>
+    <script src="js/auth.js"></script>
+
+    
+</body>
+</html>

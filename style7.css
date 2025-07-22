@@ -1,0 +1,597 @@
+/* 1. Reset browser's default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Make body take full screen height */
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* 3. Let body stretch down and push footer */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* 4. Make main content fill up remaining space */
+main {
+  flex: 1;
+}
+
+/* Container used to center and organize items */
+.container{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;  /* Use flexbox to align elements */
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Navigation menu style */
+/* -------------- Navbar Styling -------------- */
+header {
+  background-color: #9b45d0;
+  color: white;
+  position: sticky;  /* This makes it stay at top */
+  top: 0;
+  z-index: 1000;
+  padding: 10px 0;
+}
+
+/* ✅ This new container name matches the HTML */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #4a148c;
+}
+
+/* 🔧 Mobile Fix */
+@media (max-width: 600px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}
+
+
+/* Main hero section (welcome area) */
+.hero-section {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #101104, #022651);
+  color: white;
+}
+
+.hero-section h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: white;
+  color: #0072ff;
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #eff308;
+  transform: scale(1.05);
+}
+
+.toast-message {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e10d0d;
+  background-color: #28a745;
+  padding: 15px 25px;
+  border-radius: 15px;
+  display: inline-block;
+  animation: fadeSlideIn 1s ease forwards;
+  box-shadow: 0 4px 10px rgba(180, 22, 22, 0.2);
+  margin-bottom: 10px;
+}
+
+.access-text {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #32dc0b;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+.button-group .cta-button {
+  margin: 10px;
+  padding: 12px 25px;
+  background-color: #071149;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.button-group .cta-button:hover {
+  background-color: #e6ff02;
+  transform: scale(1.05);
+}
+
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+footer{
+    text-align: bottom;
+    padding: 10px;
+    background: #3dceef;
+    color:rgb(12, 1, 1);
+}
+
+/* ----- login page styles-------*/
+/* --- Glassy full-page login background --- */
+.login-wrapper {
+  min-height: 100vh;
+  background:linear-gradient(to right, #101104, #022651);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* --- Glassmorphism login card --- */
+.login-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 40px 30px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  color: white;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  animation: popIn 0.6s ease;
+}
+
+.login-card h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.login-card p {
+  font-size: 15px;
+  margin-bottom: 25px;
+  opacity: 0.8;
+}
+
+/* --- Form inputs --- */
+.login-card input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.login-card input::placeholder {
+  color: #ddd;
+}
+
+.login-card input:focus {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* --- Login button --- */
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  background: #00c896;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.login-card button:hover {
+  background: #00b386;
+  transform: scale(1.03);
+}
+
+/* --- Error message --- */
+#error-msg {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ffcccc;
+  min-height: 20px;
+}
+
+/* --- Animation --- */
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* --- Responsive tweak --- */
+@media (max-width: 500px) {
+  .login-card {
+    padding: 30px 20px;
+  }
+}
+
+
+/* mcq styling */
+/* ====== DARK AESTHETIC BASE ====== */
+body {
+  margin: 0;
+  padding: 0;
+  background: #0f111a;
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ====== QUIZ CONTAINER CARD ====== */
+.quiz-container {
+  max-width: 850px;
+  margin: 80px auto;
+  padding: 40px;
+  background: rgba(18, 20, 30, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(255, 255, 0, 0.15);
+  border: 1px solid rgba(255, 255, 0, 0.3);
+  transition: 0.3s;
+}
+
+/* ====== MAIN HEADING (MCQ Test) ====== */
+.quiz-container h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+  text-shadow: none; /* 🔥 no glow */
+  animation: none;    /* 🔥 remove glow animation */
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* ====== DROPDOWNS ====== */
+select {
+  background-color: #1b1d28;
+  border: 2px solid #444;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin: 10px 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* No neon glow on dropdowns */
+select:hover,
+select:focus {
+  background-color: #222;
+  border-color: #666;
+  outline: none;
+}
+
+/* ====== TIMER ====== */
+#timer {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #ffdd57;
+  font-weight: bold;
+}
+
+/* ====== BUTTONS ====== */
+button,
+#submit-btn,
+#load-quiz-btn {
+  background: #fff700;
+  color: #000;
+  padding: 10px 18px;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  transition: 0.4s ease;
+  box-shadow: 0 0 10px #fff700, 0 0 30px #fff700;
+}
+
+button:hover,
+#submit-btn:hover,
+#load-quiz-btn:hover {
+  background: #ffea00;
+  box-shadow: 0 0 20px #fff700, 0 0 60px #fff700;
+  transform: scale(1.05);
+}
+
+/* ====== QUESTIONS ====== */
+.question p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+/* ====== RADIO BUTTON OPTIONS ====== */
+input[type="radio"] {
+  accent-color: #fff700;
+  margin-right: 10px;
+}
+
+/* ====== LEADERBOARD STYLING ====== */
+#leaderboard-section {
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 3px solid #fff700;
+}
+
+#leaderboard li {
+  list-style: none;
+  font-weight: 600;
+  color: #fffca1;
+  margin-bottom: 10px;
+}
+
+/* ====== FOOTER ====== */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #777;
+  font-size: 14px;
+}
+
+
+/* notes styling*/
+
+.notes-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.notes-container h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.notes-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.note-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.note-card:hover {
+  transform: scale(1.03);
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 18px;
+  background-color: #2a2f4f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.download-btn:hover {
+  background-color: #1d2036;
+}
+
+
+/* Youtube videos lectures */
+
+.video-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.video-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.video-card {
+  width: 300px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  padding: 15px;
+  text-align: center;
+}
+
+.video-card iframe {
+  width: 100%;
+  height: 170px;
+  border-radius: 8px;
+}
+
+.video-card p {
+  margin-top: 10px;
+  font-weight: 500;
+}
+/* LOGIN PAGE CARD DESIGN + ANIMATION */
+
+/* Centered container */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 20px;
+}
+
+/* Animated text */
+.animated-messages {
+  font-size: 1.3rem;
+  height: 40px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#animated-text {
+  border-right: 2px solid white;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: blink 0.8s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* Card style login box */
+.login-box {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  width: 320px;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-box label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #eee;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-box button:hover {
+  background-color: #45a049;
+}
+
+#error-msg {
+  color: red;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
