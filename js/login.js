@@ -7,8 +7,8 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
   const email = document.getElementById("email").value;
   const password = document.getElementById("password").value;
 
-  const correctEmail = "user@example.com";
-  const correctPassword = "1a2b3c4d";
+  const correctEmail = "student@gmail.com";
+  const correctPassword = "7ESTUDY";
 
   if (email === correctEmail && password === correctPassword) {
     localStorage.setItem("loggedIn", "true");

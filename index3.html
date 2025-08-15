@@ -1,69 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>7ESTUDY- Home</title>
-    <link rel ="stylesheet" href="style7.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>7ESTUDY - Home</title>
+  <link rel="stylesheet" href="style7.css">
+
+  
 </head>
 <body>
-  <!-- Website Header with Navigation Bar -->  
-    <header>
-  <div class="container">
-    <h1>7EStudy</h1>
-    <nav>
-      <a href="index3.html">Home</a>
-      <a href="mcq-quiz.html">MCQs</a>
-      <a href="youtube.html">Videos</a>
-      <a href="notes.html">Notes</a>
-    
-      <a href="contact.html">Contact us</a>
-    </nav>
-  </div>
-</header>
+<div class="video-background"
+  <!-- Background Video -->
+  <video autoplay muted loop playsinline id="bg-video">
+    <source src="asset/background.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
+  <!-- Website Header with Navigation Bar -->
+  <header>
+    <div class="container">
+      <h1>7EStudy</h1>
+      <nav>
+        <a href="index3.html">Home</a>
+        <a href="mcq-quiz.html">MCQs</a>
+        <a href="youtube.html">Videos</a>
+        <a href="notes.html">Notes</a>
+        <a href="contact.html">Contact us</a>
+      </nav>
+    </div>
+  </header>
 
- <!-- Main welcome section of the homepage -->
-<main class="hero-section">
-  <h2 id="welcome-heading">Welcome to 7EStudy</h2>
-  <p id="welcome-subheading">Your one stop platform for MCQs, Notes, and Videos</p>
-<!-- Button that takes user to the login page -->
- <div id="guest-content">
-   <a href="login.html" id="cta-button" class="cta-button">Start Learning</a></div>
+  <!-- Main welcome section of the homepage -->
+  <main class="hero-section">
+    <h2 id="welcome-heading">Welcome to 7EStudy</h2>
+    <p id="welcome-subheading">Your one stop platform for MCQs, Notes, and Videos</p>
 
-<!-- Buttons to show after login -->
-  <div id="user-content" style="display: none;">
-    <div class="toast-messsage">Welcome to 7ESTUDY</div>
-     <p class="access-text">You now have free access to all content 🎉</p>
-  <div class="button-group">
-  
-    <a href="mcq-quiz.html" class="cta-button">MCQs</a>
-    <a href="notes.html" class="cta-button">Notes</a>
-    <a href="youtube.html" class="cta-button">Videos</a>
-  </div>
+    <!-- Button that takes user to the login page -->
+    <div id="guest-content">
+      <a href="login.html" id="cta-button" class="cta-button">Start Learning</a>
+    </div>
+    <p></p>ID = student@gmail.com ✅ PASSWORD= 7ESTUDY ✅</p>
 
+    <P>USE THE SAME PROVIDED ID PASSWORD BECAUSE NO SERVER RIGHT NOW</P>
 
-</main>
+    <!-- Buttons to show after login -->
+    <div id="user-content" style="display: none;">
+      <div class="toast-message">Keep Studying!</div>
+      <p class="access-text">click on what you want </p>
+      <div class="button-group">
+        <a href="mcq-quiz.html" class="cta-button">MCQs</a>
+        <a href="notes.html" class="cta-button">Notes</a>
+        <a href="youtube.html" class="cta-button">Videos</a>
+      </div>
+    </div>
+  </main>
 
-<script>
-  if (localStorage.getItem("loggedIn") === "true") {
-    document.getElementById("guest-content").style.display = "none";
-    document.getElementById("user-content").style.display = "block";
-    document.getElementById("welcome-heading").textContent = "Thank you for joining 7EStudy!";
-    document.getElementById("welcome-subheading").textContent = "You now have free access to all premium content.";
-  }
-</script>
+  <!-- Script to check login -->
+  <script>
+    if (localStorage.getItem("loggedIn") === "true") {
+      document.getElementById("guest-content").style.display = "none";
+      document.getElementById("user-content").style.display = "block";
+      document.getElementById("welcome-heading").textContent = "Thank you for joining 7EStudy!";
+      document.getElementById("welcome-subheading").textContent = "It's time for your academic era";
+    }
+  </script>
 
-<!-- Footer section at the bottom of the page -->
-<footer>
-  <a href="#" onclick="logout()">Logout</a>
-
+  <!-- Footer section -->
+  <footer>
+    <a href="#" onclick="logout()">Logout</a>
     <p>&copy; 2025 7ESTUDY. All rights reserved.</p>
-</footer>
-<script src="js/logout.js"></script>
-
-
-</script>
-
+  </footer>
+  
+  <script src="js/logout.js"></script>
 </body>
 </html>

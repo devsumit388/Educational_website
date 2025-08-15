@@ -2,84 +2,64 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MCQ Test - EduQuest</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCQ Quiz</title>
   <link rel="stylesheet" href="style7.css" />
 </head>
-  <script src="js/auth.js"></script>  <!-- ✅ protect page -->
-  
- <script>
-  if (localStorage.getItem("loggedIn") !== "true") {
-    window.location.href = "login.html";
-  }
-</script>
+<script src="js/auth.js"></script>  <!-- ✅ protect page -->
+<bod >
+<body class="mcq-page">
 
-
-<body>
-  <header>
-  <div class="container">
-    <h1>7EStudy</h1>
-    <nav>
-      <a href="index3.html">Home</a>
-      <a href="mcq-quiz.html">MCQs</a>
-      <a href="youtube.html">Videos</a>
-      <a href="notes.html">Notes</a>
-      
-      <a href="contact.html">Contact us</a>
-    </nav>
-  </div>
-</header>
-
-  <main class="quiz-container">
   <h2>MCQ Test</h2>
 
-  <!-- Step-by-step dropdown filters -->
   <div id="filters">
-<select id="class-select">
-  <option value="">Select Class</option>
-  <option value="9">Class 9</option>
-  <option value="10">Class 10</option>
-</select>
+    <select id="class-select">
+      <option value="">Select Class</option>
+      <option value="class9">Class 9</option>
+      <option value="class10">Class 10</option>
+      <option value="class11">Class 11</option>
 
-<select id="subject-select" disabled>
-  <option value="">Select Subject</option>
-</select>
+    </select>
 
-<select id="chapter-select" disabled>
-  <option value="">Select Chapter</option>
-</select>
+    <select id="subject-select">
+      <option value="">Select Subject</option>
+      <option value="maths">Maths</option>
+      <option value="science">science</option>
+    </select>
 
-<select id="difficulty-select" disabled>
-  <option value="">Select Difficulty</option>
-</select>
+    <select id="chapter-select">
+      <option value="">Select Chapter</option>
+      <option value="ch1">Chapter 1</option>
 
+    </select>
 
-    <button id="load-quiz-btn" disabled>Start Quiz</button>
+    <select id="difficulty-select">
+      <option value="">Select Difficulty</option>
+      <option value="easy">Easy</option>
+    </select>
+
+    <button id="start-btn">Start Quiz</button>
   </div>
 
-  <!-- Timer -->
-  <div id="timer" style="display: none;">Time: 00:00</div>
+  <div id="quiz-container"></div>
 
 
-  <!-- Question container -->
-  <div id="question-container"></div>
+  <!-- Result Section -->
 
-  <!-- Submit button -->
-  <button id="submit-btn" style="display:none;">Submit Test</button>
-
-  <!-- Score output -->
-  <div id="score-output"></div>
-
-  <!-- Leaderboard -->
-  <div id="leaderboard-section" style="display: none;">
-    <h3>Leaderboard</h3>
-    <ul id="leaderboard"></ul>
+<!-- Result Section -->
+<div id="result-section" style="display:none;">
+  <div class="result-grid">
+    <div class="result-card">Score: <span id="score-display">0</span></div>
+    <div class="result-card">Correct: <span id="correct-display">0</span></div>
+    <div class="result-card">Incorrect: <span id="incorrect-display">0</span></div>
+    <div class="result-card">Time Taken: <span id="time-display">0:00</span></div>
   </div>
-</main>
+  <div class="result-buttons">
+    <button id="retake-btn">Retake Test</button>
+    <button id="newtest-btn">New Test</button>
+  </div>
+</div>
 
-  <footer>
-    <p>&copy; 2025 EduQuest. All rights reserved.</p>
-  </footer>
   <script src="js/quiz.js"></script>
 </body>
 </html>

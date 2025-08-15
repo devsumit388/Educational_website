@@ -1,0 +1,290 @@
+{
+  "class9": {
+    "science": {
+      "ch1-matter in our surroundings": {
+        "easy": [
+          {
+            "question": "Which of the following is NOT a state of matter?",
+            "options": ["Plasma", "Gas", "Light", "Liquid"],
+            "answer": "Light",
+            "explanation": "Light is a form of energy, not matter. The three main states of matter are solid, liquid, and gas, with plasma as the fourth."
+          },
+          {
+            "question": "Which state of matter has a definite shape and volume?",
+            "options": ["Gas", "Solid", "Liquid", "Plasma"],
+            "answer": "Solid",
+            "explanation": "Solids have a fixed shape and volume because their particles are closely packed and can only vibrate in place."
+          },
+          {
+            "question": "In which state of matter are particles farthest apart?",
+            "options": ["Gas", "Solid", "Liquid", "Plasma"],
+            "answer": "Gas",
+            "explanation": "Gas particles are far apart and move freely in all directions, resulting in no fixed shape or volume."
+          },
+          {
+            "question": "Which process changes a liquid to a gas at all temperatures?",
+            "options": ["Evaporation", "Condensation", "Boiling", "Freezing"],
+            "answer": "Evaporation",
+            "explanation": "Evaporation occurs at all temperatures when particles at the surface of a liquid gain enough energy to become gas."
+          },
+          {
+            "question": "What happens to the movement of particles when temperature increases?",
+            "options": ["They vibrate less", "They stop moving", "They move faster", "They move slower"],
+            "answer": "They move faster",
+            "explanation": "Increasing temperature gives particles more kinetic energy, causing them to move faster."
+          },
+          {
+            "question": "Which of these is an example of sublimation?",
+            "options": ["Dry ice changing to carbon dioxide gas", "Ice melting into water", "Water boiling to steam", "Steam condensing to water"],
+            "answer": "Dry ice changing to carbon dioxide gas",
+            "explanation": "Sublimation is when a solid changes directly to a gas without becoming liquid first, like dry ice."
+          },
+          {
+            "question": "Which of the following is a property of liquids?",
+            "options": ["Definite volume, no definite shape", "Definite shape, definite volume", "No definite shape, no definite volume", "Rigid particles"],
+            "answer": "Definite volume, no definite shape",
+            "explanation": "Liquids take the shape of their container but maintain a fixed volume."
+          },
+          {
+            "question": "Which factor does NOT affect evaporation?",
+            "options": ["Temperature", "Surface area", "Humidity", "Color of liquid"],
+            "answer": "Color of liquid",
+            "explanation": "Evaporation rate depends on temperature, surface area, and humidity, but not on the liquid's color."
+          },
+          {
+            "question": "Condensation is the change of state from:",
+            "options": ["Gas to liquid", "Liquid to gas", "Solid to gas", "Gas to solid"],
+            "answer": "Gas to liquid",
+            "explanation": "Condensation occurs when gas particles lose energy and form a liquid."
+          },
+          {
+            "question": "Why does evaporation cause cooling?",
+            "options": ["It releases heat", "It absorbs heat from surroundings", "It increases particle speed", "It reduces humidity"],
+            "answer": "It absorbs heat from surroundings",
+            "explanation": "During evaporation, particles take energy from their surroundings to escape into the air, causing cooling."
+          },
+          {
+            "question": "Which is the slowest change of state?",
+            "options": ["Evaporation", "Boiling", "Melting", "Condensation"],
+            "answer": "Evaporation",
+            "explanation": "Evaporation happens gradually at any temperature, while boiling is much faster."
+          },
+          {
+            "question": "What is the SI unit of temperature?",
+            "options": ["Kelvin", "Celsius", "Fahrenheit", "Joule"],
+            "answer": "Kelvin",
+            "explanation": "The Kelvin scale is the SI unit for temperature, used in scientific measurements."
+          },
+          {
+            "question": "The process of solid changing directly into gas is called:",
+            "options": ["Sublimation", "Condensation", "Evaporation", "Melting"],
+            "answer": "Sublimation",
+            "explanation": "Sublimation skips the liquid state and changes solid directly to gas."
+          },
+          {
+            "question": "At what temperature does pure water boil at normal atmospheric pressure?",
+            "options": ["100°C", "90°C", "80°C", "110°C"],
+            "answer": "100°C",
+            "explanation": "Pure water boils at 100°C at 1 atmospheric pressure."
+          },
+          {
+            "question": "Which state of matter is compressible?",
+            "options": ["Gas", "Solid", "Liquid", "Plasma"],
+            "answer": "Gas",
+            "explanation": "Gases can be compressed because there is a lot of space between particles."
+          },
+          {
+            "question": "What causes diffusion to happen faster?",
+            "options": ["Lower temperature", "Higher temperature", "More pressure", "Less space"],
+            "answer": "Higher temperature",
+            "explanation": "Higher temperatures increase particle speed, which speeds up diffusion."
+          },
+          {
+            "question": "Which of these is NOT matter?",
+            "options": ["Air", "Sound", "Water", "Ice"],
+            "answer": "Sound",
+            "explanation": "Sound is a form of energy, not matter. Matter has mass and occupies space."
+          },
+          {
+            "question": "In solids, particles are:",
+            "options": ["Closely packed", "Far apart", "Randomly spaced", "Freely moving"],
+            "answer": "Closely packed",
+            "explanation": "In solids, particles are tightly packed and can only vibrate in place."
+          },
+          {
+            "question": "Which state of matter has the weakest intermolecular forces?",
+            "options": ["Gas", "Solid", "Liquid", "Plasma"],
+            "answer": "Gas",
+            "explanation": "Gas particles have the weakest forces between them, allowing free movement."
+          },
+          {
+            "question": "Which change of state requires heat to be given to the substance?",
+            "options": ["Melting", "Condensation", "Freezing", "Solidification"],
+            "answer": "Melting",
+            "explanation": "Melting requires heat energy to break the bonds between solid particles."
+          }
+        ],
+        "medium": [
+          {
+            "question": "Which of the following processes involves both melting and evaporation occurring together?",
+            "options": ["Sublimation", "Distillation", "Melting of ice in sunlight", "Boiling of water"],
+            "answer": "Melting of ice in sunlight",
+            "explanation": "When ice melts in sunlight, some of the water formed may evaporate simultaneously due to heat."
+          },
+          {
+            "question": "Why does a gas exert pressure on the walls of its container?",
+            "options": ["Due to gravitational pull", "Due to random motion of particles", "Due to collisions between gas particles and container walls", "Due to intermolecular attraction"],
+            "answer": "Due to collisions between gas particles and container walls",
+            "explanation": "Gas particles constantly move and collide with the container walls, producing pressure."
+          },
+          {
+            "question": "Which of the following increases the rate of diffusion in gases?",
+            "options": ["Decreasing temperature", "Increasing molecular mass", "Increasing temperature", "Reducing surface area"],
+            "answer": "Increasing temperature",
+            "explanation": "Higher temperature increases particle speed, making diffusion faster."
+          },
+          {
+            "question": "Latent heat of fusion refers to:",
+            "options": ["Heat absorbed without temperature change during melting", "Heat released during condensation", "Heat required to raise temperature of 1 kg of water by 1°C", "Heat absorbed during evaporation"],
+            "answer": "Heat absorbed without temperature change during melting",
+            "explanation": "Latent heat of fusion is the heat needed to change a solid to liquid without temperature change."
+          },
+          {
+            "question": "Why is steam more effective in heating than boiling water at the same temperature?",
+            "options": ["Steam has higher specific heat", "Steam contains latent heat of vaporization", "Steam is lighter", "Steam condenses easily"],
+            "answer": "Steam contains latent heat of vaporization",
+            "explanation": "Steam releases additional heat when condensing, making it more effective."
+          }
+        ]
+      }
+    }
+  },
+  "class10": {
+    "science": {
+      "ch1-chemical reactions and equations": {
+        "easy": [
+          {
+            "question": "What is the chemical formula for quicklime?",
+            "options": ["CaO", "Ca(OH)₂", "CaCO₃", "CaCl₂"],
+            "answer": "a",
+            "explanation": "Quicklime is calcium oxide, represented chemically as CaO."
+          },
+          {
+            "question": "Which of the following is a combination reaction?",
+            "options": ["2H₂ + O₂ → 2H₂O", "CaCO₃ → CaO + CO₂", "Zn + CuSO₄ → ZnSO₄ + Cu", "AgNO₃ + NaCl → AgCl + NaNO₃"],
+            "answer": "a",
+            "explanation": "A combination reaction occurs when two or more substances combine to form one product, like hydrogen and oxygen forming water."
+          },
+          {
+            "question": "Which gas is evolved when zinc reacts with dilute sulphuric acid?",
+            "options": ["Oxygen", "Hydrogen", "Carbon dioxide", "Nitrogen"],
+            "answer": "b",
+            "explanation": "Zinc reacts with dilute acids to produce hydrogen gas."
+          },
+          {
+            "question": "What does 'aq' represent in a chemical equation?",
+            "options": ["Aqueous solution", "Aqueous gas", "Solid", "Liquid"],
+            "answer": "a",
+            "explanation": "'aq' means the substance is dissolved in water, i.e., in an aqueous solution."
+          },
+          {
+            "question": "The process of depositing a layer of zinc on iron to prevent rusting is called:",
+            "options": ["Alloying", "Galvanization", "Electroplating", "Coating"],
+            "answer": "b",
+            "explanation": "Galvanization is coating iron with zinc to prevent rusting."
+          },
+          {
+            "question": "Which of these is a displacement reaction?",
+            "options": ["2Mg + O₂ → 2MgO", "Zn + CuSO₄ → ZnSO₄ + Cu", "CaO + H₂O → Ca(OH)₂", "AgNO₃ + NaCl → AgCl + NaNO₃"],
+            "answer": "b",
+            "explanation": "Zinc displaces copper from copper sulphate in a displacement reaction."
+          },
+          {
+            "question": "The reaction 2KClO₃ → 2KCl + 3O₂ is an example of:",
+            "options": ["Combination", "Decomposition", "Double displacement", "Neutralization"],
+            "answer": "b",
+            "explanation": "Here, potassium chlorate breaks down into potassium chloride and oxygen, so it is a decomposition reaction."
+          },
+          {
+            "question": "What is the physical state of water in the equation: H₂O(l)?",
+            "options": ["Gas", "Liquid", "Solid", "Aqueous"],
+            "answer": "b",
+            "explanation": "'(l)' indicates that the substance is in liquid form."
+          },
+          {
+            "question": "Which reaction produces a precipitate?",
+            "options": ["AgNO₃ + NaCl → AgCl + NaNO₃", "H₂ + Cl₂ → 2HCl", "CaCO₃ → CaO + CO₂", "2Mg + O₂ → 2MgO"],
+            "answer": "a",
+            "explanation": "Silver chloride (AgCl) is an insoluble precipitate formed in the reaction."
+          },
+          {
+            "question": "Which of the following is a redox reaction?",
+            "options": ["Zn + CuSO₄ → ZnSO₄ + Cu", "AgNO₃ + NaCl → AgCl + NaNO₃", "CaO + H₂O → Ca(OH)₂", "HCl + NaOH → NaCl + H₂O"],
+            "answer": "a",
+            "explanation": "In this reaction, zinc is oxidized and copper is reduced, making it a redox reaction."
+          },
+          {
+            "question": "Which type of reaction is photosynthesis?",
+            "options": ["Decomposition", "Combination", "Displacement", "Neutralization"],
+            "answer": "b",
+            "explanation": "Photosynthesis combines carbon dioxide and water to form glucose and oxygen."
+          },
+          {
+            "question": "Which of these is the correct balanced equation for the reaction of magnesium with oxygen?",
+            "options": ["Mg + O₂ → MgO", "2Mg + O₂ → 2MgO", "Mg + O₂ → 2MgO", "Mg₂ + O₂ → 2MgO"],
+            "answer": "b",
+            "explanation": "Two magnesium atoms react with one oxygen molecule to form two units of magnesium oxide."
+          },
+          {
+            "question": "Which of the following shows a double displacement reaction?",
+            "options": ["Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl", "2H₂ + O₂ → 2H₂O", "Zn + H₂SO₄ → ZnSO₄ + H₂", "2KClO₃ → 2KCl + 3O₂"],
+            "answer": "a",
+            "explanation": "In double displacement, two compounds exchange their ions, as in sodium sulphate and barium chloride reaction."
+          },
+          {
+            "question": "Which of the following is a neutralization reaction?",
+            "options": ["HCl + NaOH → NaCl + H₂O", "2Mg + O₂ → 2MgO", "Zn + CuSO₄ → ZnSO₄ + Cu", "CaCO₃ → CaO + CO₂"],
+            "answer": "a",
+            "explanation": "Acid reacts with base to form salt and water in a neutralization reaction."
+          },
+          {
+            "question": "Which gas is evolved when dilute hydrochloric acid reacts with sodium carbonate?",
+            "options": ["O₂", "H₂", "CO₂", "N₂"],
+            "answer": "c",
+            "explanation": "The reaction produces carbon dioxide gas along with salt and water."
+          },
+          {
+            "question": "Which of the following is an example of exothermic reaction?",
+            "options": ["Respiration", "Photosynthesis", "Melting of ice", "Evaporation"],
+            "answer": "a",
+            "explanation": "Respiration releases energy, making it an exothermic process."
+          },
+          {
+            "question": "Which is the correct symbol for a substance in gaseous state?",
+            "options": ["(l)", "(g)", "(aq)", "(s)"],
+            "answer": "b",
+            "explanation": "'(g)' denotes a substance in the gaseous state."
+          },
+          {
+            "question": "What is the product formed when calcium reacts with water?",
+            "options": ["CaCO₃", "Ca(OH)₂ and H₂", "CaO and H₂", "CaCl₂"],
+            "answer": "b",
+            "explanation": "Calcium reacts with water to form calcium hydroxide and hydrogen gas."
+          },
+          {
+            "question": "What does a catalyst do in a reaction?",
+            "options": ["Increases rate of reaction", "Stops reaction", "Changes products formed", "Makes reaction endothermic"],
+            "answer": "a",
+            "explanation": "A catalyst increases the speed of a reaction without being consumed."
+          },
+          {
+            "question": "Which one is NOT a chemical change?",
+            "options": ["Burning of paper", "Rusting of iron", "Melting of ice", "Cooking of food"],
+            "answer": "c",
+            "explanation": "Melting of ice is a physical change, not a chemical change."
+          }
+        ]
+      }
+    }
+  }
+}
