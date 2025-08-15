@@ -13,7 +13,7 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
   if (email === correctEmail && password === correctPassword) {
     localStorage.setItem("loggedIn", "true");
     alert("Login successful!");
-    window.location.href = "index3.html";
+    window.location.href = "index.html";
   } else {
     const errorMsg = document.getElementById("error-msg");
     errorMsg.style.color = "red";
