@@ -196,7 +196,7 @@
           {
             "question": "Which of these is a displacement reaction?",
             "options": ["2Mg + O₂ → 2MgO", "Zn + CuSO₄ → ZnSO₄ + Cu", "CaO + H₂O → Ca(OH)₂", "AgNO₃ + NaCl → AgCl + NaNO₃"],
-            "answer": "Zn + CuSO₄ → ZnSO",
+            "answer": "Zn + CuSO₄ → ZnSO₄ + Cu",
             "explanation": "Zinc displaces copper from copper sulphate in a displacement reaction."
           },
           {
