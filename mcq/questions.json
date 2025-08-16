@@ -172,7 +172,7 @@
           {
             "question": "Which of the following is a combination reaction?",
             "options": ["2H₂ + O₂ → 2H₂O", "CaCO₃ → CaO + CO₂", "Zn + CuSO₄ → ZnSO₄ + Cu", "AgNO₃ + NaCl → AgCl + NaNO₃"],
-            "answer": "a",
+            "answer": "2H₂ + O₂ → 2H₂O",
             "explanation": "A combination reaction occurs when two or more substances combine to form one product, like hydrogen and oxygen forming water."
           },
           {
