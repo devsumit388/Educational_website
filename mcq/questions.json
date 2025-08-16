@@ -166,7 +166,7 @@
           {
             "question": "What is the chemical formula for quicklime?",
             "options": ["CaO", "Ca(OH)₂", "CaCO₃", "CaCl₂"],
-            "answer": "a",
+            "answer": "CaO",
             "explanation": "Quicklime is calcium oxide, represented chemically as CaO."
           },
           {
@@ -178,109 +178,109 @@
           {
             "question": "Which gas is evolved when zinc reacts with dilute sulphuric acid?",
             "options": ["Oxygen", "Hydrogen", "Carbon dioxide", "Nitrogen"],
-            "answer": "b",
+            "answer": "Hydrogen",
             "explanation": "Zinc reacts with dilute acids to produce hydrogen gas."
           },
           {
             "question": "What does 'aq' represent in a chemical equation?",
             "options": ["Aqueous solution", "Aqueous gas", "Solid", "Liquid"],
-            "answer": "a",
+            "answer": "Aqueous solution",
             "explanation": "'aq' means the substance is dissolved in water, i.e., in an aqueous solution."
           },
           {
             "question": "The process of depositing a layer of zinc on iron to prevent rusting is called:",
             "options": ["Alloying", "Galvanization", "Electroplating", "Coating"],
-            "answer": "b",
+            "answer": "Galvanization",
             "explanation": "Galvanization is coating iron with zinc to prevent rusting."
           },
           {
             "question": "Which of these is a displacement reaction?",
             "options": ["2Mg + O₂ → 2MgO", "Zn + CuSO₄ → ZnSO₄ + Cu", "CaO + H₂O → Ca(OH)₂", "AgNO₃ + NaCl → AgCl + NaNO₃"],
-            "answer": "b",
+            "answer": "Zn + CuSO₄ → ZnSO",
             "explanation": "Zinc displaces copper from copper sulphate in a displacement reaction."
           },
           {
             "question": "The reaction 2KClO₃ → 2KCl + 3O₂ is an example of:",
             "options": ["Combination", "Decomposition", "Double displacement", "Neutralization"],
-            "answer": "b",
+            "answer": "Decomposition",
             "explanation": "Here, potassium chlorate breaks down into potassium chloride and oxygen, so it is a decomposition reaction."
           },
           {
             "question": "What is the physical state of water in the equation: H₂O(l)?",
             "options": ["Gas", "Liquid", "Solid", "Aqueous"],
-            "answer": "b",
+            "answer": "Liquid",
             "explanation": "'(l)' indicates that the substance is in liquid form."
           },
           {
             "question": "Which reaction produces a precipitate?",
             "options": ["AgNO₃ + NaCl → AgCl + NaNO₃", "H₂ + Cl₂ → 2HCl", "CaCO₃ → CaO + CO₂", "2Mg + O₂ → 2MgO"],
-            "answer": "a",
+            "answer": "AgNO₃ + NaCl → AgCl + NaNO₃",
             "explanation": "Silver chloride (AgCl) is an insoluble precipitate formed in the reaction."
           },
           {
             "question": "Which of the following is a redox reaction?",
             "options": ["Zn + CuSO₄ → ZnSO₄ + Cu", "AgNO₃ + NaCl → AgCl + NaNO₃", "CaO + H₂O → Ca(OH)₂", "HCl + NaOH → NaCl + H₂O"],
-            "answer": "a",
+            "answer": "Zn + CuSO₄ → ZnSO₄ + Cu",
             "explanation": "In this reaction, zinc is oxidized and copper is reduced, making it a redox reaction."
           },
           {
             "question": "Which type of reaction is photosynthesis?",
             "options": ["Decomposition", "Combination", "Displacement", "Neutralization"],
-            "answer": "b",
+            "answer": "Combination",
             "explanation": "Photosynthesis combines carbon dioxide and water to form glucose and oxygen."
           },
           {
             "question": "Which of these is the correct balanced equation for the reaction of magnesium with oxygen?",
             "options": ["Mg + O₂ → MgO", "2Mg + O₂ → 2MgO", "Mg + O₂ → 2MgO", "Mg₂ + O₂ → 2MgO"],
-            "answer": "b",
+            "answer": "2Mg + O₂ → 2MgO",
             "explanation": "Two magnesium atoms react with one oxygen molecule to form two units of magnesium oxide."
           },
           {
             "question": "Which of the following shows a double displacement reaction?",
             "options": ["Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl", "2H₂ + O₂ → 2H₂O", "Zn + H₂SO₄ → ZnSO₄ + H₂", "2KClO₃ → 2KCl + 3O₂"],
-            "answer": "a",
+            "answer": "Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl",
             "explanation": "In double displacement, two compounds exchange their ions, as in sodium sulphate and barium chloride reaction."
           },
           {
             "question": "Which of the following is a neutralization reaction?",
             "options": ["HCl + NaOH → NaCl + H₂O", "2Mg + O₂ → 2MgO", "Zn + CuSO₄ → ZnSO₄ + Cu", "CaCO₃ → CaO + CO₂"],
-            "answer": "a",
+            "answer": "HCl + NaOH → NaCl + H₂O",
             "explanation": "Acid reacts with base to form salt and water in a neutralization reaction."
           },
           {
             "question": "Which gas is evolved when dilute hydrochloric acid reacts with sodium carbonate?",
             "options": ["O₂", "H₂", "CO₂", "N₂"],
-            "answer": "c",
+            "answer": "CO₂",
             "explanation": "The reaction produces carbon dioxide gas along with salt and water."
           },
           {
             "question": "Which of the following is an example of exothermic reaction?",
             "options": ["Respiration", "Photosynthesis", "Melting of ice", "Evaporation"],
-            "answer": "a",
+            "answer": "Respiration",
             "explanation": "Respiration releases energy, making it an exothermic process."
           },
           {
             "question": "Which is the correct symbol for a substance in gaseous state?",
             "options": ["(l)", "(g)", "(aq)", "(s)"],
-            "answer": "b",
+            "answer": "(g)",
             "explanation": "'(g)' denotes a substance in the gaseous state."
           },
           {
             "question": "What is the product formed when calcium reacts with water?",
             "options": ["CaCO₃", "Ca(OH)₂ and H₂", "CaO and H₂", "CaCl₂"],
-            "answer": "b",
+            "answer": "Ca(OH)₂ and H₂",
             "explanation": "Calcium reacts with water to form calcium hydroxide and hydrogen gas."
           },
           {
             "question": "What does a catalyst do in a reaction?",
-            "options": ["Increases rate of reaction", "Stops reaction", "Changes products formed", "Makes reaction endothermic"],
-            "answer": "a",
+            "options": ["Increases heat energy", "Stops reaction", "Changes products formed", "Increases rate of reaction"],
+            "answer": "increase rate of reaction",
             "explanation": "A catalyst increases the speed of a reaction without being consumed."
           },
           {
             "question": "Which one is NOT a chemical change?",
             "options": ["Burning of paper", "Rusting of iron", "Melting of ice", "Cooking of food"],
-            "answer": "c",
+            "answer": "Melting of ice",
             "explanation": "Melting of ice is a physical change, not a chemical change."
           }
         ]
